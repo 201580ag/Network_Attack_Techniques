@@ -1,4 +1,4 @@
-# Network_Attack
+# Network_Attack_Techniques
 Network Attack Techniques
 ```
 SQL Injection (SQL 삽입 공격): 웹 응용 프로그램에 악성 SQL 코드를 삽입하여 데이터베이스를 공격하는 공격.
