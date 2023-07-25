@@ -1,0 +1,197 @@
+SQL Injection (SQL 삽입 공격): 웹 응용 프로그램에 악성 SQL 코드를 삽입하여 데이터베이스를 공격하는 공격.
+
+Cross-Site Scripting (XSS, 크로스 사이트 스크립팅): 웹 페이지에 악성 스크립트를 삽입하여 사용자의 브라우저에서 실행되게 하여 정보를 탈취하거나 세션을 탈취하는 공격.
+
+Cross-Site Request Forgery (CSRF, 크로스 사이트 요청 위조): 인증된 사용자의 브라우저를 이용해 악성 요청을 전송하여 사용자의 권한으로 비정상적인 작업을 수행하는 공격.
+
+Remote Code Execution (원격 코드 실행): 원격에서 악성 코드를 실행하여 시스템을 제어하는 공격.
+
+Buffer Overflow (버퍼 오버플로우): 프로그램이 할당된 버퍼보다 많은 데이터를 입력받아 메모리를 넘어서 다른 코드를 실행하는 공격.
+
+Clickjacking (클릭재킹): 사용자가 의도하지 않은 클릭을 유도하여 악성 작업을 수행하게 하는 공격.
+
+Directory Traversal (디렉토리 순회): 웹 서버의 보안을 우회하여 파일 시스템의 디렉토리에 접근하거나 실행 파일을 실행하는 공격.
+
+Session Hijacking (세션 하이재킹): 유효한 세션 정보를 도용하여 사용자의 세션을 탈취하는 공격.
+
+XML External Entity (XXE, 외부 엔티티 주입): XML 파싱 과정에서 외부 엔티티를 로드하여 서버를 공격하는 공격.
+
+Server-Side Request Forgery (SSRF, 서버 사이드 요청 위조): 서버가 내부 리소스에 접근하여 악성 요청을 보내는 공격.
+
+Insecure Direct Object References (IDOR, 취약한 직접 객체 참조): 인증되지 않은 사용자가 다른 사용자의 데이터에 접근하는 공격.
+
+Remote File Inclusion (RFI, 원격 파일 인클루젼): 웹 애플리케이션에서 원격 서버의 악성 파일을 실행하는 공격.
+
+Local File Inclusion (LFI, 로컬 파일 인클루젼): 웹 애플리케이션에서 로컬 파일을 인클루드하여 악성 코드를 실행하는 공격.
+
+SQL Truncation Attack (SQL 절단 공격): 데이터베이스에 대해 임의의 데이터를 잘라내어 조작하는 공격.
+
+LDAP Injection (LDAP 삽입 공격): LDAP 쿼리를 조작하여 악성 동작을 유발하는 공격.
+
+Command Injection (명령어 삽입 공격): 악의적인 명령어를 애플리케이션에 삽입하여 실행되게 하는 공격.
+
+Malware Injection (악성코드 삽입 공격): 웹 사이트에 악성 코드를 삽입하여 방문자의 시스템에 악성 소프트웨어를 설치하는 공격.
+
+Man-in-the-Middle Attack (MITM, 중간자 공격): 통신 경로에 제3자가 개입하여 정보를 가로채거나 조작하는 공격.
+
+Distributed Denial of Service (DDoS, 분산 서비스 거부 공격): 다수의 시스템을 이용하여 특정 대상의 서비스를 마비시키는 공격.
+
+Cross-Origin Resource Sharing (CORS, 크로스 오리진 리소스 공유): 웹 브라우저에서 도메인 간의 리소스 공유를 제어하는 보안 정책.
+
+Click Fraud (클릭 부정 행위): 광고 클릭을 조작하여 광고주를 속이거나 비정상적인 수익을 얻는 행위.
+
+Security Misconfiguration (보안 설정 오류): 애플리케이션 또는 시스템의 보안 설정이 적절하지 않아 공격자에게 취약점을 노출하는 상태.
+
+Insufficient Transport Layer Security (TLS, 전송 계층 보안 부족): 데이터를 암호화하지 않거나 취약한 암호화로 인해 정보 유출 위험이 있는 상태.
+
+Information Disclosure (정보 누출): 인가되지 않은 사용자에게 민감한 정보를 노출하는 상태.
+
+HTTP Header Injection (HTTP 헤더 삽입 공격): 웹 애플리케이션의 HTTP 헤더를 조작하여 공격자가 의도한 내용을 삽입하는 공격.
+
+Integer Overflow/Underflow (정수 오버플로우/언더플로우): 정수 변수의 값이 범위를 초과하여 예기치 않은 동작이 발생하는 상태.
+
+Unvalidated Redirects and Forwards (검증되지 않은 리다이렉트와 포워드): 악의적인 사이트로 사용자를 리다이렉트하여 공격하는 상태.
+
+Unrestricted File Upload (제한 없는 파일 업로드): 악성 파일 업로드로 인해 원격 코드 실행이 가능한 상태.
+
+Broken Authentication and Session Management (인증 및 세션 관리 취약점): 사용자 인증 또는 세션 관리에 취약점이 있어 인증을 우회하는 공격.
+
+Cryptographic Weaknesses (암호화 알고리즘 취약점): 취약한 암호화 알고리즘 또는 키 관리로 인해 데이터 보호에 취약한 상태.
+
+Sensitive Data Exposure (민감한 데이터 노출): 민감한 정보가 적절하게 보호되지 않아 노출되는 상태.
+
+Insufficient Password Complexity (패스워드 복잡성 부족): 약한 패스워드 정책으로 인해 쉽게 추측 가능한 암호를 사용하는 상태.
+
+Insufficient Authorization (인가 부족): 사용자의 권한 검증이 제대로 이루어지지 않아 권한을 우회하는 공격.
+
+Zero-day Exploits (제로데이 익스플로잇): 알려지지 않은 취약점을 이용하여 시스템을 공격하는 공격.
+
+HTTP Parameter Pollution (HTTP 파라미터 오염): 웹 애플리케이션의 파라미터를 조작하여 오동작이 발생하는 상태.
+
+UI Redressing (UI 변조): 사용자 인터페이스를 변조하여 사용자를 혼란시키거나 공격하는 상태.
+
+Server-Side Template Injection (서버 사이드 템플릿 인젝션): 웹 애플리케이션의 템플릿 삽입으로 인해 서버 측 코드가 실행되는 상태.
+
+API Abuse (API 남용): 악의적인 방식으로 API를 사용하여 서비스를 공격하는 상태.
+
+OAuth Token Theft (OAuth 토큰 도난): OAuth 토큰을 탈취하여 무단으로 리소스에 접근하는 공격.
+
+Eavesdropping (도청): 네트워크 통신을 가로채어 정보를 수집하는 공격.
+
+Reverse Engineering (역공학): 소프트웨어를 분석하여 소스 코드나 알고리즘을 추출하는 작업 또는 그 과정.
+
+Session Fixation (세션 픽스레이션): 사용자의 세션을 미리 알고 있는 세션 값을 강제로 설정하여 사용자를 제어하는 공격.
+
+Credential Stuffing (인증 자동화 공격): 탈취한 인증 정보를 대량으로 시도하여 로그인에 성공하는 공격.
+
+Fuzzing (퍼징): 애플리케이션에 대해 임의의 데이터를 입력하여 취약점을 찾아내는 공격.
+
+JSON Web Token (JWT) Vulnerabilities (JWT 취약점): JWT를 악용하여 인증을 우회하거나 조작하는 공격.
+
+Web Application Firewall (WAF) Bypass (웹 애플리케이션 방화벽 우회): 웹 방화벽을 우회하여 악성 트래픽을 전달하는 공격.
+
+Server-Side Includes (SSI) Injection (서버 사이드 인클루드 인젝션): 웹 서버에서 서버 사이드 인클루드를 사용할 때 발생할 수 있는 취약점을 이용하는 공격.
+
+Malicious File Execution (악성 파일 실행): 서버에서 악성 파일을 실행하는 공격.
+
+Broken Access Control (액세스 제어 취약점): 인가되지 않은 사용자가 권한 상승 또는 데이터 접근을 할 수 있는 취약점.
+
+Session Timeout Attack (세션 타임아웃 공격): 사용자의 세션이 만료되지 않도록 유도하여 악성 세션을 유지하는 공격.
+
+Padding Oracle Attack (패딩 오라클 공격): 암호화된 데이터의 패딩 오류를 이용하여 암호를 해독하는 공격.
+
+DNS Spoofing (DNS 스푸핑): DNS 서버의 응답을 조작하여 사용자를 다른 사이트로 리다이렉트하는 공격.
+
+Self-SQL Injection (자체 SQL 삽입 공격): 사용자 입력을 적절하게 검증하지 않아 자체적으로 SQL 삽입이 가능한 상태.
+
+OAuth Abuse (OAuth 남용): OAuth 인증 방식을 악용하여 권한을 얻거나 허가되지 않은 리소스에 접근하는 공격.
+
+Subdomain Takeover (서브도메인 탈취): 더 이상 사용되지 않는 서브도메인을 이용하여 공격자가 제어하는 상태.
+
+Open Redirect (오픈 리다이렉트): 애플리케이션의 리다이렉트 기능을 악용하여 사용자를 악성 사이트로 이동시키는 공격.
+
+Cookie Poisoning (쿠키 조작): 쿠키 값을 조작하여 권한 상승이나 다른 사용자의 세션 탈취를 시도하는 공격.
+
+HTML Injection (HTML 인젝션): 웹 페이지에 악성 HTML 코드를 삽입하여 사용자의 브라우저에서 실행되게 하는 공격.
+
+Remote Desktop Protocol (RDP) Bruteforce (원격 데스크톱 프로토콜 브루트포스): RDP 접속에 대해 무차별 대입 공격을 시도하는 공격.
+
+Stack Smashing (스택 스매싱): 스택 메모리를 오버플로우하여 프로그램의 제어 흐름을 조작하는 공격.
+
+Brute Force Attack (브루트 포스 공격): 모든 가능한 값을 시도하여 암호를 찾아내는 공격.
+
+Credential Brute-Forcing (자격증명 브루트포스): 인증 정보를 무차별 대입으로 시도하여 액세스 권한을 얻는 공격.
+
+HTTP Desync Attack (HTTP 디싱크 공격): HTTP 헤더를 조작하여 서버의 오동작을 유발하는 공격.
+
+DNS Tunneling (DNS 터널링): DNS 프로토콜을 악용하여 데이터를 암호화하여 네트워크를 통해 전송하는 공격.
+
+Exploitation of Unintended Functionality (의도하지 않은 기능 악용): 애플리케이션에서 의도하지 않은 기능을 악용하여 공격하는 상태.
+
+HTTP Parameter Tampering (HTTP 파라미터 조작): 웹 애플리케이션의 파라미터 값을 조작하여 비정상적인 동작을 유도하는 공격.
+
+Watering Hole Attack (워터링 홀 공격): 특정 사용자 그룹이 자주 방문하는 사이트를 감염시켜 공격하는 전략.
+
+Credential Harvesting (자격증명 수집): 사용자의 인증 정보를 수집하는 공격.
+
+Dangling Pointer Dereference (댕글링 포인터 참조): 메모리에서 해제된 포인터를 참조하여 애플리케이션을 마비시키는 상태.
+
+Bypassing File Upload Restrictions (파일 업로드 제한 우회): 파일 업로드 시 제한을 우회하여 악성 파일을 업로드하는 공격.
+
+RFID Cloning (RFID 복제): RFID 카드 또는 태그를 복제하여 무단 접근을 시도하는 공격.
+
+Android Rooting (안드로이드 루팅): 안드로이드 기기의 루트 권한을 얻어 보안 기능을 우회하는 공격.
+
+Data Exfiltration (데이터 유출): 기밀 데이터를 불법적으로 빼내는 공격.
+
+BIOS/UEFI Rootkits (BIOS/UEFI 루트킷): 컴퓨터의 BIOS 또는 UEFI를 감염시켜 시스템 제어를 목표로 하는 공격.
+
+Session Sidejacking (세션 사이드잭킹): 세션 정보를 도청하여 사용자의 세션을 탈취하는 공격.
+
+Passive Reconnaissance (수동 감시): 네트워크 및 시스템에 대한 정보를 수집하는 공격.
+
+Business Logic Flaws (비즈니스 로직 결함): 애플리케이션의 비즈니스 로직에 취약점이 있어 비정상적인 작동이 가능한 상태.
+
+Social Engineering (사회 공학): 사람들의 신뢰를 기반으로 정보를 탈취하거나 공격하는 기법.
+
+Wireless Sniffing (무선 가로채기): 무선 통신을 가로채어 데이터를 수집하는 공격.
+
+DNS Amplification Attack (DNS 증폭 공격): DNS 서버를 이용하여 대량의 데이터를 특정 대상에게 보내서 서비스 거부를 유발하는 공격.
+
+Printer Exploitation (프린터 공격): 네트워크 프린터를 악용하여 시스템에 침투하는 공격.
+
+ARP Spoofing (ARP 스푸핑): 네트워크 상의 다른 기기들에 대한 ARP 응답을 가로채어 가짜 MAC 주소로 변경하여 중간자 공격을 수행하는 공격.
+
+NFC Hacking (NFC 해킹): NFC 기술을 악용하여 데이터를 도용하거나 조작하는 공격.
+
+Secure Sockets Layer (SSL) Stripping (SSL 스트리핑): SSL 보안 연결을 해제하여 중간자 공격을 수행하는 공격.
+
+Cookie Theft (쿠키 도난): 사용자의 쿠키를 탈취하여 세션을 탈취하는 공격.
+
+Keystroke Logging (키스트로크 로깅): 사용자의 키보드 입력을 기록하여 인증 정보 등을 탈취하는 공격.
+
+Rainbow Table Attack (레인보우 테이블 공격): 미리 계산된 해시 테이블을 이용하여 암호를 빠르게 해독하는 공격.
+
+DNS Cache Poisoning (DNS 캐시 오염): DNS 서버의 캐시를 조작하여 정상적인 도메인 이름을 악성 IP 주소로 변경하는 공격.
+
+HTTPS Spoofing (HTTPS 스푸핑): HTTPS 보안 연결을 조작하여 중간자 공격을 수행하는 공격.
+
+OAuth Phishing (OAuth 피싱): OAuth 인증을 유도하여 사용자의 권한 정보를 탈취하는 공격.
+
+SQL Object Injection (SQL 객체 삽입 공격): SQL 쿼리의 객체에 악성 코드를 삽입하여 데이터베이스를 조작하는 공격.
+
+Protocol Fuzzing (프로토콜 퍼징): 프로토콜에 대해 임의의 데이터를 입력하여 취약점을 찾아내는 공격.
+
+Content Spoofing (콘텐츠 스푸핑): 웹 사이트의 콘텐츠를 조작하여 사용자를 혼란시키거나 공격하는 상태.
+
+Log Injection (로그 인젝션): 로그 기능을 이용하여 악성 코드를 삽입하는 공격.
+
+Bypassing CAPTCHA (CAPTCHA 우회): CAPTCHA 보안 메커니즘을 우회하여 자동화된 공격을 수행하는 상태.
+
+Elevation of Privilege (권한 상승): 사용자의 권한을 조작하여 더 높은 권한을 얻는 공격.
+
+Docker Container Escape (도커 컨테이너 탈출): 도커 컨테이너 환경에서 격리된 환경을 벗어나 시스템을 공격하는 상태.
+
+Security Bypass (보안 우회): 보안 기능을 우회하여 시스템에 침투하는 공격.
+
+Malvertising (악성 광고): 악성 코드가 포함된 광고를 사용자에게 노출시켜 공격하는 상태.
